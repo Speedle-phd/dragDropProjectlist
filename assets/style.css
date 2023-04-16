@@ -1,0 +1,36 @@
+*,*::after,*::before{
+   box-sizing: border-box;
+   margin: 0;padding:0;
+}
+html * {
+   font-family: monospace;
+}
+
+body{
+   width: calc(100vw - 7rem);
+   margin-inline: auto;
+   min-height: 100dvh;
+   background-color: #242424;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: beige;
+   font-size: 2rem;
+   letter-spacing: 2px;
+}
+form{
+   margin-block: 2rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.3rem;
+   width: 200px;
+}
+.form-control{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 0.2rem;
+}
+input{
+   width: 100%;
+}
+
